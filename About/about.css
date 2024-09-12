@@ -1,0 +1,181 @@
+body{
+  background-color: black;
+}
+.bg{
+  width: 1520px;
+  height: 100%;
+  background-image: url("bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 90%;
+  background-position: center;
+  position: fixed;
+  top: 0;
+}
+.buttons {
+width: 240px;
+height: 100%;
+background-color: rgb(0, 0, 0);
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(0, 0, 0);
+box-shadow: 5px 5px 5px #444444;
+border-radius: 5px;
+font-family: monospace;
+z-index: 100;
+}
+.buttons a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    opacity: .4;
+}
+input[type="button"]{
+    display: none;
+    width: 0;
+}
+.buttons a:hover{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+#h1{
+  top: 10px;
+  left: 800px;
+  position: absolute;
+  color: rgb(0, 242, 255);
+  font-size: 40px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+}
+.about_me{
+  width: 1000px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+position: relative;
+top: 110px;
+left: 335px;
+}
+#about_me{
+  color: rgb(0, 242, 255);
+  font-size: 30px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+  top: 1px;
+  left: 10px;
+  position: absolute;
+}
+#about_me_text{
+  color: aliceblue;
+  font-size: 20px;
+left: 170px;
+top: 10px;
+position: absolute;
+}
+.education{
+  width: 1000px;
+  height: 300px;
+  background-color: rgba(101, 81, 81, 0);
+  display: flex;
+top: 130px;
+left: 335px;
+position: relative;
+}
+#education{
+  color: rgb(0, 242, 255);
+  font-size: 30px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+
+}
+#btech{
+  color: rgb(15, 200, 73);
+  font-size: 25px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+  position: absolute;
+  left: 170px;
+  top: 10px;
+}
+#btech_text1{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 430px;
+  margin-top: 35px;
+  position: absolute;
+}
+#btech_text2{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 430px;
+  position: absolute;
+ margin-top: 65px;
+}
+#btech_text3{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 430px;
+  position: absolute;
+ margin-top: 90px;
+}
+#inter{
+  color: rgb(15, 200, 73);
+  font-size: 25px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+position: absolute;
+margin-left: 200px;
+margin-top: 130px;
+}
+#inter_text1{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  margin-top: 135px;
+  position: absolute;
+}
+#inter_text2{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  position: absolute;
+ margin-top: 160px;
+}
+#inter_text3{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  position: absolute;
+ margin-top: 185px;
+}
+#ssc{
+  color: rgb(15, 200, 73);
+  font-size: 25px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 23, 75));
+position: absolute;
+margin-left: 320px;
+margin-top: 220px;
+}
+#ssc_text1{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  margin-top: 220px;
+  position: absolute;
+}
+#ssc_text2{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  position: absolute;
+ margin-top: 245px;
+}
+#ssc_text3{
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 435px;
+  position: absolute;
+ margin-top: 270px;
+}

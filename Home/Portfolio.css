@@ -1,0 +1,249 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: monospace;
+}
+.bg{
+  width: 1520px;
+  height: 100%;
+  background-image: url("bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 90%;
+  background-position: center;
+  position: fixed;
+  top: 0;
+}
+
+.home{
+  width: 1525px;
+  height: 725px;
+  background-color: rgba(215, 181, 181,0);
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+
+.buttons {
+width: 240px;
+height: 100%;
+background-color: rgb(0, 0, 0);
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+box-shadow: 5px 5px 5px #444444;
+border-radius: 5px;
+font-family: monospace;
+z-index: 100;
+}
+.buttons a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  opacity: .4;
+}
+input[type="button"]{
+  display: none;
+  width: 0;
+}
+.buttons a:hover{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+
+.profilecard{
+width: 1285px;
+height: 724px;
+background-color: rgba(46, 27, 92, 0);
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 235px;
+top: 0;
+}
+#blank{
+width: 400px;
+height: 500px;
+background-image: url("bg1.jpeg");
+background-repeat: no-repeat;
+background-size: 900px;
+background-position: center;
+border-radius: 50px;
+position: absolute;
+top: 170px;
+left: 405px;
+opacity: 30%;
+}
+
+#photo{
+position: absolute;
+top: 70px;
+left: 500px;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+opacity: 90%;
+z-index: 1;
+border-bottom: solid;
+border-width: 5px;
+border-left: solid;
+border-right: solid;
+border-color: rgb(36, 36, 36);
+}
+#h1{
+color: rgb(255, 255, 255);
+position: absolute;
+top: 290px;
+left: 535px;
+z-index: 1;
+font-size: 30px;
+font-weight: bolder;
+filter: drop-shadow(0px 0px 2px rgb(138, 62, 62));
+}
+#h2{
+color: rgb(255, 255, 255);
+position: absolute;
+top: 330px;
+left: 535px;
+z-index: 1;
+font-size: 18px;
+font-weight: bolder;
+filter: drop-shadow(0px 0px 2px rgb(130, 44, 44));
+}
+#line{
+width: 180px;
+height: 2px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+position: absolute;
+top: 370px;
+left: 510px;
+z-index: 1;
+}
+#p1{
+position: absolute;
+top: 380px;
+left: 465px;
+z-index: 1;
+text-shadow: 0px 0px 5px black;
+color: aliceblue;
+}
+#p2{
+position: absolute;
+top: 410px;
+left: 495px;
+z-index: 1;
+text-shadow: 0px 0px 5px black;
+color: aliceblue;
+}
+#p3{
+position: absolute;
+top: 440px;
+left: 485px;
+z-index: 1;
+text-shadow: 0px 0px 5px black;
+color: aliceblue;
+}
+#color{
+position: absolute;
+color: white;
+top: 500px;
+left: 435px;
+z-index: 1;
+text-shadow: 0px 0px 2px purple;
+}
+.resume{
+  width: 130px;
+  height: 30px;
+  background-color: rgba(25, 65, 100, 0.967);
+  position: absolute;
+  border: solid;
+  border-radius: 50px;
+  border-color: lightblue;
+top: 535px;
+left: 530px;
+z-index: 1;
+text-align: center;
+font-size: 25px;
+font-weight: 20px;
+color: white;
+text-shadow: 2px 2px 10px rgb(21, 25, 21);
+}
+.resume:hover{
+  filter: drop-shadow(2px 2px 10px rgba(255, 255, 255, 0.827));
+  border: outset;
+}
+.png{
+position:absolute;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+top: 600px;
+left: 450px;
+border:  none;
+width: 300px;
+height: 40px;
+}
+#facebook{
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+}
+#whatsapp{
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+}
+#instagram{
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+}
+#linkedin{
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+}
+#github{
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+}
+#email{
+     width: 40px;
+     height: 40px;
+     border-radius: 100%;
+}
+#facebook:hover{
+filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#instagram:hover{
+filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#linkedin:hover{
+filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#github:hover{
+filter: drop-shadow(1px 1px 10px rgb(253, 253, 253))
+}
+#whatsapp:hover{
+filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+}
+#email:hover{
+  filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+}
+#photo:hover{
+filter: drop-shadow(5px 5px 20px black);
+}

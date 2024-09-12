@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    font-family: monospace;
+}
+.bg{
+    width: 1520px;
+    height: 100%;
+    background-image: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 90%;
+    background-position: center;
+    position: fixed;
+    top: 0;
+}
+  
+.home{
+    width: 1525px;
+    height: 725px;
+    background-color: rgba(215, 181, 181,0);
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+  
+  
+.buttons {
+  width: 240px;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px 5px #444444;
+  border-radius: 5px;
+  font-family: monospace;
+  z-index: 100;
+}
+.buttons a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    opacity: .4;
+}
+input[type="button"]{
+    display: none;
+    width: 0;
+}
+.buttons a:hover{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.png{
+   position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 300px;
+    left: 500px;
+    border:  none;
+    width: 700px;
+    height: 100px;
+}
+#facebook{
+     width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#whatsapp{
+     width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#instagram{
+     width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#linkedin{
+     width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#github{
+     width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#email{
+  width: 70px;
+     height: 70px;
+     border-radius: 100%;
+}
+#facebook:hover{
+    filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#instagram:hover{
+    filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#linkedin:hover{
+    filter: drop-shadow(1px 1px 10px rgb(255, 255, 255));
+}
+#github:hover{
+    filter: drop-shadow(1px 1px 10px rgb(253, 253, 253))
+}
+#whatsapp:hover{
+    filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+}
+#email:hover{
+  filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+}
