@@ -247,3 +247,16 @@ filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
 #photo:hover{
 filter: drop-shadow(5px 5px 20px black);
 }
+@media screen and (max-width:1000px){
+  .profilecard{
+    width: 1285px;
+    height: 1000px;
+    background-color: rgba(46, 27, 92, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 235px;
+    top: 800px;
+    }
+}
