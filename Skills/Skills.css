@@ -146,3 +146,8 @@ input[type="button"]{
     color: aliceblue;
     text-shadow: 2px 2px 5px rgb(9, 7, 105);
   }
+ @media screen and (max-width: 1000px) {
+    .text{
+      top: 400px;
+    }
+  }
