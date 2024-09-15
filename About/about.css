@@ -179,3 +179,14 @@ margin-top: 220px;
   position: absolute;
  margin-top: 270px;
 }
+@media screen and (max-width:1000px) {
+  .education{
+    top: 450px;
+  }
+  .about_me{
+    top: 400px;
+  }
+  #h1{
+    top: 300px;
+  }
+}
