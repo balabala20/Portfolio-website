@@ -242,3 +242,10 @@ input[type="button"]{
   border: outset;
   border-color: azure;
 }
+@media screen and (max-width:1000px) {
+  .projects{
+    top: 280px;
+    left: 250px;
+    height: 2300px;
+  }
+}
